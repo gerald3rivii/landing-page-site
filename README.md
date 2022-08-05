@@ -1,1 +1,2 @@
-Funtik is watching you...
+Hello world command
+Goodbye world command
