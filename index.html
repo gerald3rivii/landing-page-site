@@ -16,78 +16,80 @@
         <nav>
             <div class="topnav" id="myTopnav">
                 <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">SERVICES</a>
-                <a href="#">PORTFOLIO</a>
-                <a href="#">TESTIMONIALS</a>
-                <a href="#">CONTACT</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#testimonials">TESTIMONIALS</a>
+                <a href="#contact">CONTACT</a>
                 <a href="#" id="menu" class="icon">&#9776</a>
             </div>
         </nav>
     </header>
     <main>
-        <div class="main__welcome">
+
+        <section class="main__welcome">
             <h1><em>WELCOME ON</em> <span class="mycompany"><strong>MYCOMPANY</span></h1>
             <p><em>We are a digital agency with years of experience and with extraordinary people</em></p>
-        </div>
-        <div class="wrapper">
-            <div class="main__about">
-                <div class="about__left">
-                    <img class="mw-100" src="images/mac.png" alt="mac">
-                </div>
-                <div class="about__right">
-                    <h1>SOME WORDS ABOUT US</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores
-                        ullam quis, at asperiores minus ad eque maxime possimus .</p>
-                    <ul>
-                        <li>Mission - We deliver uniquenness and quality</li>
-                        <li>Skills - Delivering fast and excellent results</li>
-                        <li>Clients - Satisfied clients thanks to our experience</li>
-                    </ul>
-                </div>
+        </section>
 
-            </div>
-        </div>
-        <div class="main__team">
+
+        <section class="main__about" id="about">
+            <div class="wrapper">
+                <div class="about">
+                    <div class="about__left">
+                        <img class="mw-100" src="images/mac.png" alt="mac">
+                    </div>
+                    <div class="about__right">
+                        <h1>SOME WORDS ABOUT US</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores
+                            ullam quis, at asperiores minus ad eque maxime possimus .</p>
+                        <ul>
+                            <li>Mission - We deliver uniquenness and quality</li>
+                            <li>Skills - Delivering fast and excellent results</li>
+                            <li>Clients - Satisfied clients thanks to our experience</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <section class="main__team">
             <div class="wrapper">
                 <h1>OUR TEAM</h1>
-                <div class="line"></div>
                 <div class="team__cards">
                     <div class="card">
-                        <div class="photo"></div>
-                        <h4 class="name">Vlad Ivanchenko</h4>
+                        <img src="images/worker_icon.png" alt="worker">
+                        <h4 class="name">Vladimir Kovalchuk</h4>
+                        <p class="position">SEO</p>
+                        <p class="about__position">Do not seek to change what has come before. Seek to create that which
+                            has not.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/worker_icon.png" alt="worker">
+                        <h4 class="name">Alexander Ishchenko</h4>
                         <p class="position">Designer</p>
                         <p class="about__position">Do not seek to change what has come before. Seek to create that which
                             has not.</p>
                     </div>
                     <div class="card">
-                        <div class="photo"></div>
-                        <h4 class="name">Vlad Ivanchenko</h4>
-                        <p class="position">Designer</p>
+                        <img src="images/worker_icon.png" alt="worker">
+                        <h4 class="name">Ihor Layshch</h4>
+                        <p class="position">Programmer</p>
                         <p class="about__position">Do not seek to change what has come before. Seek to create that which
                             has not.</p>
                     </div>
                     <div class="card">
-                        <div class="photo"></div>
-                        <h4 class="name">Vlad Ivanchenko</h4>
-                        <p class="position">Designer</p>
-                        <p class="about__position">Do not seek to change what has come before. Seek to create that which
-                            has not.</p>
-                    </div>
-                    <div class="card">
-                        <div class="photo"></div>
-                        <h4 class="name">Vlad Ivanchenko</h4>
-                        <p class="position">Designer</p>
+                        <img src="images/worker_icon.png" alt="worker">
+                        <h4 class="name">Yan Savon</h4>
+                        <p class="position">Frontend</p>
                         <p class="about__position">Do not seek to change what has come before. Seek to create that which
                             has not.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="main__services">
+        </section>
+        <section class="main__services" id="services">
             <div class="wrapper">
                 <h1>OUR SERVICES</h1>
-                <div class="line"></div>
                 <p><i>Lorem ipsum dolor st amet, consectetur adipisicing elit. Doloribus ex quidem maiores
                         ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit
                         excepture porro ipsa tenetur.Lorem ipsum dolor st amet, consectetur adipisicing elit. Doloribus
@@ -129,12 +131,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="main__clients">
+        <section class="main__clients">
             <div class="wrapper">
                 <h1>SOME OF OUR CLIENTS</h1>
-                <div class="line"></div>
                 <div class="clients">
                     <div class="client">
                         <img src="images/lacoste.png" alt="lacoste">
@@ -153,13 +154,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="wrapper">
 
-            <div class="main__work">
+        <section class="main__work" id="portfolio">
+            <div class="wrapper">
                 <h1>TAKE A LOOK AT OUR WORK</h1>
-                <div class="line"></div>
                 <p><i>Lorem ipsum dolor st amet, consectetur adipisicing elit. Doloribus ex quidem maiores
                         ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit
                         excepture porro ipsa tenetur.Lorem ipsum dolor st amet, consectetur adipisicing elit. Doloribus
@@ -187,18 +187,53 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="main__testimonials">
+        <section class="main__testimonials" id="testimonials">
             <div class="wrapper">
                 <h1>OUR CLIENTS' TESTIMONIALS</h1>
-                <div class="line"></div>
                 <p>lorem ipsum dolor st amet, consectetur adipisicing elit. doloribus ex quidem maiores ullam quis.
                 </p>
                 <p>Dean Martin, CEO Acme Inc.</p>
             </div>
-        </div>
+        </section>
+
+        <section class="contact__form" id="contact">
+            <div class="wrapper">
+                <h1>CONTACT FORM</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor st amet, consectetur adipisicing elit. Doloribus ex quidem maiores
+                    ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit
+                    excepture porro ipsa tenetur.Lorem ipsum dolor st amet, consectetur adipisicing elit. Doloribus
+                    ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto
+                    assumenda velit
+                    excepture porro ipsa tenetur.</p>
+                <form action="#" name="newform" method="post">
+                    <div class="form__inputs">
+                        <p>Name <span class="red">*</span><br><input type="text"></p>
+                        <p>E-mail address <span class="red">*</span><br><input type="text"></p>
+                    </div>
+                    <p>Message <span class="red">*</span><br><textarea name="text"></textarea></p>
+                    <div class="button__block">
+                        <input type="submit" value="SEND">
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="wrapper">
+            <div class="social">
+                <a href="http://facebook.com/"><img src="images/social_media/facebook.svg" alt="facebook"></a>                
+                <a href="http://google.com/"><img src="images/social_media/google.svg" alt="google"></a>
+                <a href="http://instagram.com/"><img src="images/social_media/instagram.svg" alt="instagram"></a>
+                <a href="http://linkedin.com/"><img src="images/social_media/linkedin.svg" alt="linkedin"></a>
+                <a href="http://twiter.com/"><img src="images/social_media/twitter.svg" alt="twitter"></a>
+                <a href="http://youtube.com/"><img src="images/social_media/youtube.svg" alt="youtube"></a>
+            </div>
+
+        </div>
+    </footer>
     <script src="scripts/script.js"></script>
 </body>
 
